@@ -79,7 +79,8 @@ Bullet lists nested within numbered list:
      * banana
   2. vegetables
      - carrot
-     - broccoli
+     - broccoli ONE - normal
+     - broccoli TWO - ninja
   
 </syntaxhighlight>
 |
@@ -104,7 +105,7 @@ Bullet lists nested within numbered list:
 #* banana
 # vegetables
 #* carrot
-#* broccoli
+#* broccoli one
 
 |-
 |<syntaxhighlight lang="md">A [link](http://example.com).
