@@ -1,12 +1,3 @@
-== Examples ==
-
-{|class="wikitable"
-! width="33%" | Text using Markdown syntax
-! width="34%" | Corresponding HTML produced by a Markdown processor
-! width="33%" | Text viewed in a browser
-|-valign="top"
-|
-<syntaxhighlight lang="md">
 Heading
 =======
 
@@ -114,3 +105,51 @@ Bullet lists nested within numbered list:
 # vegetables
 #* carrot
 #* broccoli
+
+|-
+|<syntaxhighlight lang="md">A [link](http://example.com).
+
+![Image](Icon-pictures.png "icon")
+
+> Markdown uses email-style
+characters for blockquoting.
+>
+> Multiple paragraphs need to be prepended individually.
+
+Most inline <abbr title="Hypertext Markup Language">HTML</abbr> tags are supported.
+</syntaxhighlight>
+|
+<syntaxhighlight lang="html"><p>A <a href="http://example.com">link</a>.</p>
+
+<p><img alt="Image" title="icon" src="Icon-pictures.png" /></p>
+
+<blockquote>
+<p>Markdown uses email-style characters for blockquoting.</p>
+<p>Multiple paragraphs need to be prepended individually.</p>
+</blockquote>
+
+<p>Most inline <abbr title="Hypertext Markup Language">HTML</abbr> tags are supported.</p>
+
+</syntaxhighlight>
+|A [http://example.com/ link].
+
+[[File:Icon-pictures.png|alt=Image|link=|icon]]
+
+<blockquote>
+Markdown uses email-style characters for blockquoting.
+
+Multiple paragraphs need to be prepended individually.
+</blockquote>
+
+Most inline <abbr title="Hypertext Markup Language">HTML</abbr> tags are supported.
+
+<!-- Spare row markup
+|-
+|<syntaxhighlight lang="md">m
+</syntaxhighlight>
+|
+<syntaxhighlight lang="html">h
+</syntaxhighlight>
+|end
+ -->
+|}
